@@ -10,14 +10,17 @@ public class TimelineControl : MonoBehaviour
     public PlayableDirector playableDirector;  // Reference to Playable Director
     public Button playButton;                  // Reference to the play button
     public Button stopButton;                  // Reference to the stop button
-   
+    public Button Idle;
 
     void Start()
     {
         // Add listeners to buttons to play or stop the timeline when clicked
         playButton.onClick.AddListener(PlayTimeline);
         stopButton.onClick.AddListener(StopTimeline);
+       
     }
+
+   
 
     void PlayTimeline()
     {
@@ -27,6 +30,8 @@ public class TimelineControl : MonoBehaviour
             playableDirector.Play();
         }
     }
+
+    
 
     void StopTimeline()
     {
