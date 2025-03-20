@@ -10,6 +10,7 @@ public class TimelineControl : MonoBehaviour
     public PlayableDirector playableDirector;  // Reference to Playable Director
     public Button playButton;                  // Reference to the play button
     public Button stopButton;                  // Reference to the stop button
+   
 
     void Start()
     {
@@ -33,6 +34,7 @@ public class TimelineControl : MonoBehaviour
         {
             // Stop the timeline (it will reset to the first frame)
             playableDirector.Stop();
+            
         }
     }
 }
