@@ -8,16 +8,15 @@ public class TimelineControl : MonoBehaviour
 {
 
     public PlayableDirector playableDirector;  // Reference to Playable Director
-    public Button Kronkelen;                  // Reference to the play button
-    public Button stop;                  // Reference to the stop button
-    public Button Idle;
+    public Button StartAni;                  // Reference to the play button
+    public Button StopAni;                  // Reference to the stop button
   
 
     void Start()
     {
         // Add listeners to buttons to play or stop the timeline when clicked
-        Kronkelen.onClick.AddListener(PlayTimeline);
-        stop.onClick.AddListener(StopTimeline);
+        StartAni.onClick.AddListener(PlayTimeline);
+        StopAni.onClick.AddListener(StopTimeline);
 
     }
 
@@ -41,7 +40,7 @@ public class TimelineControl : MonoBehaviour
         {
            
             playableDirector.Stop();
-            // Destroy(OccamyKronkel);
+           
 
 
         }
