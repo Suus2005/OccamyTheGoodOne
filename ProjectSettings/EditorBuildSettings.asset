@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Occamy scene.unity
+    guid: 232ba0540247610478d928d6f4cef6e2
   m_configObjects: {}
