@@ -13,11 +13,11 @@ public class CameraMove : MonoBehaviour
         // Rotate the camera while the corresponding button is held
         if (isRotatingUp)
         {
-            transform.Rotate(Vector3.right * rotationSpeed * Time.deltaTime);
+            transform.parent.Rotate(Vector3.right * rotationSpeed * Time.deltaTime);
         }
         if (isRotatingDown)
         {
-            transform.Rotate(Vector3.left * rotationSpeed * Time.deltaTime);
+            transform.parent.Rotate(Vector3.left * rotationSpeed * Time.deltaTime);
         }
     }
 

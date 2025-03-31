@@ -7,17 +7,18 @@ public class CameraUpDSown : MonoBehaviour
     public float moveSpeed = 5f;  // Speed of camera movement
     private bool isMovingUp = false;  // Track if the "Move Up" button is held
     private bool isMovingDown = false;  // Track if the "Move Down" button is held
+    
 
     void Update()
     {
         // Move the camera while the corresponding button is held
         if (isMovingUp)
         {
-            transform.Translate(Vector3.up * moveSpeed * Time.deltaTime);
+            transform.parent.Translate(Vector3.up * moveSpeed * Time.deltaTime);
         }
         if (isMovingDown)
         {
-            transform.Translate(Vector3.down * moveSpeed * Time.deltaTime);
+            transform.parent.Translate(Vector3.down * moveSpeed * Time.deltaTime);
         }
     }
 
