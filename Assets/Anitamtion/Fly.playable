@@ -1,5 +1,20 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5651029797903206702
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44d84dc3cdf9d044c9bd290c18ab5454, type: 3}
+  m_Name: AlembicShotAsset
+  m_EditorClassIdentifier: 
+  streamPlayer:
+    exposedName: 4026ad57bf4be574aa0e2a3cb680f3b7
+    defaultValue: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43,10 +58,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 0
+    m_Start: 0.03333333333333333
     m_ClipIn: 0
-    m_Asset: {fileID: 5804304998584069169}
-    m_Duration: 2.4583332538604736
+    m_Asset: {fileID: -5651029797903206702}
+    m_Duration: 4.5416669845581055
     m_TimeScale: 1
     m_ParentTrack: {fileID: 1090514924210252468}
     m_EaseInDuration: 0
@@ -106,25 +121,10 @@ MonoBehaviour:
     m_ExposedParameterNames: []
     m_AnimationCurves: {fileID: 0}
     m_Recordable: 0
-    m_PostExtrapolationMode: 2
+    m_PostExtrapolationMode: 0
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: Infinity
-    m_PreExtrapolationTime: 0
+    m_PreExtrapolationTime: 0.03333333333333333
     m_DisplayName: OccamyFly
   m_Markers:
     m_Objects: []
---- !u!114 &5804304998584069169
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44d84dc3cdf9d044c9bd290c18ab5454, type: 3}
-  m_Name: AlembicShotAsset
-  m_EditorClassIdentifier: 
-  streamPlayer:
-    exposedName: 65452b2192dffe44f8c34b94d7e49bb1
-    defaultValue: {fileID: 0}

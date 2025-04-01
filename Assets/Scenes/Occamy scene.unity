@@ -3324,6 +3324,7 @@ PlayableDirector:
     m_References:
     - e8a409211682fb04e92bb03aa69824a9: {fileID: 0}
     - 1b674ef68a384d549a525b04569c2e4e: {fileID: 1072512330}
+    - 4026ad57bf4be574aa0e2a3cb680f3b7: {fileID: 619785582}
     - b0f5bd822bcbb284a90a59ecd28c754d: {fileID: 0}
     - 51d3acc15f6844e4398c13d6ff52a59c: {fileID: 0}
     - d7a639f8d3d86fd4ab09958f858ddb6c: {fileID: 1072512330}
@@ -3935,6 +3936,18 @@ PrefabInstance:
     - target: {fileID: 1130634570633118740, guid: 9f315161a7ed9d84ab5a5ba0b0715b6c, type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267513895223342497, guid: 9f315161a7ed9d84ab5a5ba0b0715b6c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267513895223342497, guid: 9f315161a7ed9d84ab5a5ba0b0715b6c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267513895223342497, guid: 9f315161a7ed9d84ab5a5ba0b0715b6c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 3267513895223342497, guid: 9f315161a7ed9d84ab5a5ba0b0715b6c, type: 3}
       propertyPath: m_LocalPosition.x
