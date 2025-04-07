@@ -24,7 +24,7 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: 6043642076648511599}
+    m_Asset: {fileID: 9187316403919638824}
     m_Duration: 2.4583332538604736
     m_TimeScale: 1
     m_ParentTrack: {fileID: -7833233261230137186}
@@ -113,7 +113,7 @@ MonoBehaviour:
     m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 0}
---- !u!114 &6043642076648511599
+--- !u!114 &9187316403919638824
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,5 +126,5 @@ MonoBehaviour:
   m_Name: AlembicShotAsset
   m_EditorClassIdentifier: 
   streamPlayer:
-    exposedName: d7a639f8d3d86fd4ab09958f858ddb6c
+    exposedName: b2e85a140553ac1458775ada5e165b24
     defaultValue: {fileID: 0}

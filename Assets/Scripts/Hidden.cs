@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Hidden : MonoBehaviour
 {
-    public GameObject Idle, Kronkel, Fly, Stop;
+    public GameObject Idle, Kronkel, Fly, Stop, print;
     
     // Start is called before the first frame update
     void Start()
@@ -12,7 +12,9 @@ public class Hidden : MonoBehaviour
         Idle.SetActive(false);
         Kronkel.SetActive(false);
         Fly.SetActive(false);
-       
+        print.SetActive(false);
+
+
     }
 
 
